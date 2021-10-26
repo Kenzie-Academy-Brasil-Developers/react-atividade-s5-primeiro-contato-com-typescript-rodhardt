@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+.form {
+  width: 250px;
+  margin: 100px auto 50px;
+  background-color: rgb(255, 255, 255, 0.3);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.form div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form div * {
+  margin: 4px 0;
+}
+
+.form button {
+  margin-top: 5px;
+  border: 1px solid rgb(0, 0, 107);
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  color: white;
+  background-color: rgb(74, 100, 212);
+}
+
+.form button:hover {
+  cursor: pointer;
+  background-color: rgb(0, 0, 107);
+}
+
+.users-list {
+  list-style: none;
+}
+
+.users-list li {
+  min-width: 290px;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  margin: 25px auto;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+}
